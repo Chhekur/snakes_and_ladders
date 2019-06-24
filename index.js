@@ -3,7 +3,7 @@ let cell_in_a_coloum = 10;
 let cell_height = 0;
 let cell_width = 0;
 
-let no_of_player = 2;
+let no_of_player = 4;
 let max_snakes = 20;
 let max_ladders = 20;
 
