@@ -118,7 +118,7 @@ function play(){
 }
 
 function draw(){
-    if(frameCount % 5 == 0){
+    if(frameCount % 10 == 0){
         play();
     }
 }
@@ -135,5 +135,5 @@ function game_finished(){
     fill(255,255,255);
     textSize(30);
     textAlign(CENTER, CENTER);
-    text(`Player ${who_won()} won`, width / 2, height / 2);
+    text(`Player ${who_won()} win`, width / 2, height / 2);
 }
